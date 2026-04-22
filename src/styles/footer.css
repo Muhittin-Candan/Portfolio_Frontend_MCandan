@@ -7,7 +7,7 @@
 
 .footer .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
@@ -36,6 +36,7 @@
   .footer .container {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
   }
 
   .social-links {

@@ -8,8 +8,7 @@
   gap: 2rem;
 }
 
-@media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
+.show-more-container {
+  text-align: center;
+  margin-top: 2rem;
 }

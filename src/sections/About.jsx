@@ -1,22 +1,24 @@
 import '../styles/about.css'
+import { useLanguage } from '../LanguageContext.jsx'
 
 export default function About() {
+  const { t } = useLanguage()
+
   return (
     <section className="about" id="about">
       <div className="container">
-        <h2>Über mich</h2>
+        <h2>{t('about.title')}</h2>
         <div className="about-content">
           <div className="about-text">
             <p>
-              Ich bin ein leidenschaftlicher Entwickler mit X Jahren Erfahrung in der Webentwicklung.
-              Meine Expertise liegt in React, JavaScript, und responsive Design.
+              {t('about.para1')}
             </p>
             <p>
-              Gerne arbeite ich an Projekten, die einen positiven Einfluss haben und meine Fähigkeiten herausfordern.
+              {t('about.para2')}
             </p>
           </div>
           <div className="skills">
-            <h3>Skills</h3>
+            <h3>{t('about.skillsTitle')}</h3>
             <div className="skill-list">
               <span className="skill">React</span>
               <span className="skill">JavaScript</span>

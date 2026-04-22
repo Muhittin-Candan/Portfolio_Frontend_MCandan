@@ -1,18 +1,20 @@
 import '../styles/hero.css'
+import { useLanguage } from '../LanguageContext.jsx'
 
 export default function Hero() {
+  const { t } = useLanguage()
+
   return (
     <section className="hero" id="hero">
       <div className="container">
         <div className="hero-content">
-          <h1>Hallo, ich bin <span className="highlight">Muhittin Candan</span></h1>
-          <p className="subtitle">ITler und Informatik Student (B.Sc.)</p>
+          <h1>{t('hero.greeting')} <span className="highlight">{t('hero.name')}</span></h1>
+          <p className="subtitle">{t('hero.subtitle')}</p>
           <p className="description">
-            Ich baue moderne, responsive Webanwendungen mit React, JavaScript und anderen modernen Technologien.
+            {t('hero.description')}
           </p>
           <div className="cta-buttons">
-            <button className="btn btn-primary">Meine Projekte</button>
-            <button className="btn btn-secondary">Kontakt</button>
+            <button className="btn btn-primary">{t('hero.projectsBtn')}</button>
           </div>
         </div>
         <div className="hero-visual">

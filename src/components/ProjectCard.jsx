@@ -1,6 +1,9 @@
 import '../styles/projectCard.css'
+import { useLanguage } from '../LanguageContext.jsx'
 
 export default function ProjectCard({ project }) {
+  const { t } = useLanguage()
+
   return (
     <div className="project-card">
       <div className="project-image">
@@ -15,8 +18,8 @@ export default function ProjectCard({ project }) {
           ))}
         </div>
         <div className="project-links">
-          {project.demo && <a href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>}
-          {project.github && <a href={project.github} target="_blank" rel="noopener noreferrer">Code</a>}
+          {project.demo && <a href={project.demo} target="_blank" rel="noopener noreferrer">{t('projects.viewProject')}</a>}
+          {project.github && <a href={project.github} target="_blank" rel="noopener noreferrer">{t('projects.viewCode')}</a>}
         </div>
       </div>
     </div>
