@@ -5,8 +5,8 @@ export default function Hero() {
     <section className="hero" id="hero">
       <div className="container">
         <div className="hero-content">
-          <h1>Hallo, ich bin <span className="highlight">Dein Name</span></h1>
-          <p className="subtitle">Fullstack Developer & Web Designer</p>
+          <h1>Hallo, ich bin <span className="highlight">Muhittin Candan</span></h1>
+          <p className="subtitle">ITler und Informatik Student (B.Sc.)</p>
           <p className="description">
             Ich baue moderne, responsive Webanwendungen mit React, JavaScript und anderen modernen Technologien.
           </p>
