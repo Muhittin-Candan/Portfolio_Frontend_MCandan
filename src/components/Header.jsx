@@ -40,12 +40,8 @@ export default function Header() {
         <div className="email-modal-overlay" onClick={closeEmailModal}>
           <div className="email-modal" onClick={(e) => e.stopPropagation()}>
             <div className="email-modal-header">
-              <h3>E-Mail-Adresse</h3>
+              <h3>candan.mhtn@gmail.com</h3>
               <button className="email-modal-close" onClick={closeEmailModal} aria-label="Schließen">×</button>
-            </div>
-            <div className="email-modal-body">
-              <p>Zum Kopieren:</p>
-              <code>candan.mhtn@gmail.com</code>
             </div>
           </div>
         </div>
