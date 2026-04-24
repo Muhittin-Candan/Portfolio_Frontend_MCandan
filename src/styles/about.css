@@ -3,37 +3,48 @@
 }
 
 .about-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  align-items: start;
+  display: block;
 }
 
-.about-text p {
+.about-intro {
   font-size: 1.1rem;
   color: var(--text-color);
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   line-height: 1.8;
 }
 
-.skills h3 {
-  margin-bottom: 1.5rem;
-}
-
-.skill-list {
+.timeline {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.skill {
-  background-color: var(--primary-color);
-  color: var(--accent-color);
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
-  border: 1px solid var(--accent-color);
-  font-size: 0.9rem;
+.timeline-item {
+  border-left: 3px solid var(--accent-color);
+  padding-left: 1.25rem;
 }
+
+.timeline-item h3 {
+  font-size: 0.95rem;
+  color: var(--accent-color);
+  margin-bottom: 0.4rem;
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.timeline-item ul {
+  margin: 0.5rem 0 0 1rem;
+  padding: 0;
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 
 @media (max-width: 768px) {
   .about-content {

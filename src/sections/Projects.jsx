@@ -14,6 +14,7 @@ export default function Projects() {
     <section className="projects" id="projects">
       <div className="container">
         <h2>{t('projects.title')}</h2>
+        <p className="projects-subtitle">{t('projects.subtitle')}</p>
         <div className="projects-grid">
           {displayedProjects.map((project, i) => (
             <ProjectCard key={i} project={project} />

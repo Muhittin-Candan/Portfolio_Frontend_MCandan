@@ -18,9 +18,7 @@ export default function Hero() {
             <a href="#about" className="btn btn-primary">{t('hero.aboutBtn')}</a>
           </div>
         </div>
-        <div className="hero-visual">
-          {/* Hier könnte ein Bild oder eine Illustration sein */}
-        </div>
+
       </div>
     </section>
   )

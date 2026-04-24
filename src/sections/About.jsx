@@ -10,24 +10,34 @@ export default function About() {
         <h2>{t('about.title')}</h2>
         <div className="about-content">
           <div className="about-text">
-            <p>
-              {t('about.para1')}
-            </p>
-            <p>
-              {t('about.para2')}
-            </p>
-          </div>
-          <div className="skills" id="skills">
-            <h3>{t('about.skillsTitle')}</h3>
-            <div className="skill-list">
-              <span className="skill">React</span>
-              <span className="skill">JavaScript</span>
-              <span className="skill">CSS3</span>
-              <span className="skill">HTML5</span>
-              <span className="skill">Vite</span>
-              <span className="skill">Git</span>
+            <p className="about-intro">{t('about.intro')}</p>
+            <div className="timeline">
+              <div className="timeline-item">
+                <h3>{t('about.currentTitle')}</h3>
+                <p>{t('about.current')}</p>
+                <ul>
+                  {t('about.currentDetails').map((item, i) => <li key={i}>{item}</li>)}
+                </ul>
+              </div>
+              <div className="timeline-item">
+                <h3>{t('about.exp1Title')}</h3>
+                <p>{t('about.exp1')}</p>
+              </div>
+              <div className="timeline-item">
+                <h3>{t('about.exp2Title')}</h3>
+                <p>{t('about.exp2')}</p>
+              </div>
+              <div className="timeline-item">
+                <h3>{t('about.exp3Title')}</h3>
+                <p>{t('about.exp3')}</p>
+              </div>
+              <div className="timeline-item">
+                <h3>{t('about.exp4Title')}</h3>
+                <p>{t('about.exp4')}</p>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>

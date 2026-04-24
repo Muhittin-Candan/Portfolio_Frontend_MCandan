@@ -2,6 +2,13 @@
   background-color: var(--primary-color);
 }
 
+.projects-subtitle {
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+  white-space: pre-line;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
