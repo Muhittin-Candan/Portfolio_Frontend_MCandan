@@ -5,7 +5,7 @@ export default function Hero() {
   const { t } = useLanguage()
 
   return (
-    <section className="hero" id="hero">
+    <section className="hero" id="home">
       <div className="container">
         <div className="hero-content">
           <h1>{t('hero.greeting')} <span className="highlight">{t('hero.name')}</span></h1>
@@ -14,7 +14,8 @@ export default function Hero() {
             {t('hero.description')}
           </p>
           <div className="cta-buttons">
-            <button className="btn btn-primary">{t('hero.projectsBtn')}</button>
+            <a href="#skills" className="btn btn-primary">{t('hero.projectsBtn')}</a>
+            <a href="#about" className="btn btn-primary">{t('hero.aboutBtn')}</a>
           </div>
         </div>
         <div className="hero-visual">

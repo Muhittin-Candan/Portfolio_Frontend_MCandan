@@ -17,7 +17,7 @@ export default function About() {
               {t('about.para2')}
             </p>
           </div>
-          <div className="skills">
+          <div className="skills" id="skills">
             <h3>{t('about.skillsTitle')}</h3>
             <div className="skill-list">
               <span className="skill">React</span>

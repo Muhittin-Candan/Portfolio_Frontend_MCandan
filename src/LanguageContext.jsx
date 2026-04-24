@@ -7,7 +7,8 @@ const translations = {
       name: 'Muhittin Candan',
       subtitle: 'Staatlich geprüfter Informationstechnischer Assistent und Student der Medieninformatik (B.Sc.)',
       description: 'Leidenschaft für IT, Software und technische Herausforderungen. Analytisches Denken kombiniert mit betriebswirtschaftlichem Verständnis.',
-      projectsBtn: 'Meine Projekte',
+      projectsBtn: 'Kenntnisse',
+      aboutBtn: 'Über mich',
       contactBtn: 'Kontakt'
     },
     header: {
@@ -39,7 +40,8 @@ const translations = {
       name: 'Muhittin Candan',
       subtitle: 'State-certified IT Assistant and Media Informatics Student (B.Sc.)',
       description: 'Passion for IT, software and technical challenges. Analytical thinking combined with business understanding.',
-      projectsBtn: 'My Projects',
+      projectsBtn: 'Skills',
+      aboutBtn: 'About Me',
       contactBtn: 'Contact'
     },
     header: {

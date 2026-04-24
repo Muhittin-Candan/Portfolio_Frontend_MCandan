@@ -21,10 +21,24 @@
 .center-links a {
   color: var(--text-color);
   transition: var(--transition);
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .center-links a:hover {
   color: var(--accent-color);
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.linkedin-icon {
+  width: 1rem;
+  height: 1rem;
+  fill: #0A66C2;
 }
 
 .logo {
