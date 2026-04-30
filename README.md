@@ -18,3 +18,6 @@ sps protokolle
 https://drive.google.com/drive/folders/1moKWXpdfOcttIpJV9plbNH3dAr3CK3Sk
 
 ET Multimeter, oszislokop usw 
+
+
+github readme bilder hochladen möglich
