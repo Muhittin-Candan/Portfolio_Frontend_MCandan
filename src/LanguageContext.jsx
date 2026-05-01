@@ -22,19 +22,17 @@ const translations = {
       intro: 'Ich bin IT-ler/Informatiker aus Leidenschaft mit einem umfassenden Verständnis für verschiedenste Technologien und technische Umgebungen.',
       currentTitle: 'Aktuell',
       current: 'Angestellt bei der PFM Intelligence Group (Berlin)',
-      currentDetails: [
-        'Technische Überwachung von Sensoren weltweit zur Kunden- und PKW-Zählung',
-        'Fehleranalyse und Störungsbehebung bei Sensorausfällen, Fehlpositionierungen und technischen Problemen',
-        'Sicherstellung des reibungslosen Betriebs der Sensorsysteme'
-      ],
+      currentSub: 'Technische Überwachung von Sensoren weltweit zur Kunden- und PKW-Zählung.\nFehleranalyse und Störungsbehebung bei Sensorausfällen, Fehlpositionierungen und technischen Problemen.\nSicherstellung des reibungslosen Betriebs der Sensorsysteme.',
       exp1Title: '2023 – 2025 (ca. 1,5 Jahre)',
-      exp1: 'Tätigkeit im IT-Servicedesk in einem größeren Unternehmen',
+      exp1: 'Tätigkeit im IT-Servicedesk in zwei größeren Unternehmen (300-600 Mitarbeiter)',
       exp2Title: 'Seit 2021',
       exp2: 'Student der Medieninformatik (B.Sc.) an der Berliner Hochschule für Technik',
-      exp3Title: 'Bis Ende 2020',
+      exp2Sub: 'Genutzte Programmiersprachen/Tools:\nSQL\nJava\nCSS/HTML\nPython\nFigma für Frames  von Smartphone Apps\nBash-Script',
+      exp3Title: '2015 – 2020 (Teilzeit + Minijob)',
       exp3: 'Tätigkeit im Baugewerbe in einem familiengeführten Unternehmen. Der Schwerpunkt lag auf der Bauleitung, insbesondere bei der Sanierung von Fassaden. Zusätzlich Unterstützung betriebsinterner Prozesse.',
       exp4Title: '2018',
-      exp4: 'Abschluss als staatlich geprüfter informationstechnischer Assistent (State-Certified IT Assistant)'
+      exp4: 'Abschluss als staatlich geprüfter informationstechnischer Assistent',
+      exp4Sub: 'Schwerpunkte lagen auf: Informatik, Automatisierungstechnik, Elektrotechnik, Netzwerktechnik.\nProgrammiersprachen: C++, Java, Arduino (Mikrocontroller-Boards Programmierung von Sensoren usw.).\nAutomatisierungstechnik: Stark fokussiert auf den Umgang mit SPS mittels Siemens Simatic.'
     },
     projects: {
       title: 'Kenntnisse',
@@ -69,19 +67,17 @@ const translations = {
       intro: 'I am a passionate IT professional with a comprehensive understanding of various technologies and technical environments.',
       currentTitle: 'Currently',
       current: 'Employed at PFM Intelligence Group (Berlin)',
-      currentDetails: [
-        'Technical monitoring of sensors worldwide for customer and vehicle counting',
-        'Error analysis and troubleshooting for sensor failures, misalignments and technical issues',
-        'Ensuring smooth operation of sensor systems'
-      ],
+      currentSub: 'Technical monitoring of sensors worldwide for customer and vehicle counting.\nError analysis and troubleshooting for sensor failures, misalignments and technical issues.\nEnsuring smooth operation of sensor systems.',
       exp1Title: '2023 – 2025 (approx. 1.5 years)',
-      exp1: 'Working in IT Servicedesk at a larger company',
+      exp1: 'Working in IT Servicedesk at two larger companies (300-600 employees)',
       exp2Title: 'Since 2021',
       exp2: 'Student of Media Informatics (B.Sc.) at Berlin University of Applied Sciences',
-      exp3Title: 'Until end of 2020',
+      exp2Sub: 'Programming languages/tools used:\nSQL\nJava\nCSS/HTML\nPython\nFigma for Frames of Smartphone Apps\nBash-Script',
+      exp3Title: '2015 – 2020 (Part-time + Minijob)',
       exp3: 'Working in the construction industry at a family-run company. Focus on site management, especially facade renovation. Additionally supporting internal business processes.',
       exp4Title: '2018',
-      exp4: 'Graduated as State-Certified IT Assistant (Staatlich geprüfter informationstechnischer Assistent)'
+      exp4: 'Abschluss als staatlich geprüfter informationstechnischer Assistent',
+      exp4Sub: 'Focus areas: Computer Science, Automation Technology, Electrical Engineering, Network Technology.\nProgramming languages: C++, Java, Arduino (microcontroller board programming of sensors etc.).\nAutomation Technology: Strongly focused on working with PLCs using Siemens Simatic.'
     },
     projects: {
       title: 'Skills',

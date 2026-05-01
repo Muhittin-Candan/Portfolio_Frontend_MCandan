@@ -37,6 +37,13 @@
   margin: 0;
 }
 
+.timeline-sub {
+  margin-top: 0.5rem !important;
+  font-size: 0.9rem !important;
+  color: var(--text-light) !important;
+  white-space: pre-line;
+}
+
 .timeline-item ul {
   margin: 0.5rem 0 0 1rem;
   padding: 0;

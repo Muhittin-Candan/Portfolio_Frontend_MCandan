@@ -15,17 +15,16 @@ export default function About() {
               <div className="timeline-item">
                 <h3>{t('about.currentTitle')}</h3>
                 <p>{t('about.current')}</p>
-                <ul>
-                  {t('about.currentDetails').map((item, i) => <li key={i}>{item}</li>)}
-                </ul>
-              </div>
-              <div className="timeline-item">
-                <h3>{t('about.exp1Title')}</h3>
-                <p>{t('about.exp1')}</p>
+                <p className="timeline-sub">{t('about.currentSub')}</p>
               </div>
               <div className="timeline-item">
                 <h3>{t('about.exp2Title')}</h3>
                 <p>{t('about.exp2')}</p>
+                <p className="timeline-sub">{t('about.exp2Sub')}</p>
+              </div>
+              <div className="timeline-item">
+                <h3>{t('about.exp1Title')}</h3>
+                <p>{t('about.exp1')}</p>
               </div>
               <div className="timeline-item">
                 <h3>{t('about.exp3Title')}</h3>
@@ -34,6 +33,7 @@ export default function About() {
               <div className="timeline-item">
                 <h3>{t('about.exp4Title')}</h3>
                 <p>{t('about.exp4')}</p>
+                <p className="timeline-sub">{t('about.exp4Sub')}</p>
               </div>
             </div>
           </div>
