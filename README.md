@@ -5,8 +5,6 @@ Smartphone Ansicht testen.
 
 HCI PAARFRAMES FIGMA ODER von mediendesign,
 
-DB= GUI BIlder vom Python ,
-
 
 Python rechnungscanner,
 
