@@ -7,7 +7,6 @@ HCI PAARFRAMES FIGMA ODER von mediendesign,
 
 DB= GUI BIlder vom Python ,
 
-Web1 mal schcauen ,
 
 Python rechnungscanner,
 
