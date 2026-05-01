@@ -2,7 +2,6 @@ mailto funktion testen mit einem outlook client,
 
 Smartphone Ansicht testen.
 
-CGG EINPROJEKT,
 
 HCI PAARFRAMES FIGMA ODER von mediendesign,
 
