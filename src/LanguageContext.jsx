@@ -12,7 +12,7 @@ const translations = {
       contactBtn: 'Kontakt'
     },
     header: {
-      logo: 'Portfolio',
+      logo: 'Muhittin Candan',
       about: 'Über mich',
       projects: 'Kenntnisse',
       contact: 'Kontakt'
@@ -57,7 +57,7 @@ const translations = {
       contactBtn: 'Contact'
     },
     header: {
-      logo: 'Portfolio',
+      logo: 'Muhittin Candan',
       about: 'About Me',
       projects: 'Skills',
       contact: 'Contact'

@@ -2,113 +2,107 @@ const projectsData = {
   de: [
     {
       id: 1,
-      title: "Projekt 1",
-      description: "Eine kurze Beschreibung deines Projekts. Erkläre, was du gebaut hast und welche Technologien du verwendet hast.",
-      image: "/project-1.png",
-      tags: ["React", "CSS", "JavaScript"],
-      demo: "#",
-      github: "#"
+      title: "PDF-Rechnungen-Werte-Extrahieren",
+      description: "Liest PDF Rechnungen aus und extrahiert die Werte in eine CSV Datei",
+      image: "/src/Bilder/projekt1.png",
+      tags: ["Python", "pdfplumber"],
+      github: "https://github.com/Muhittin-Candan/PDF-Rechnungen-Werte-Extrahieren-"
     },
     {
       id: 2,
-      title: "Projekt 2",
-      description: "Eine weitere coole Projektbeschreibung mit den verwendeten Technologien.",
+      title: "Rechnungen archivieren/verzippen",
+      description: "Das Script liest die PDF Rechnungen nach bestimmten Schlüsselwörtern aus und verzippt/archiviert diese dann",
       image: "/project-2.png",
-      tags: ["React", "Node.js", "MongoDB"],
-      demo: "#",
-      github: "#"
+      tags: ["Python", "PyPDF2", "zipfile"],
+      icon: "zip",
+      github: "https://github.com/Muhittin-Candan/Rechnugen-archivieren-verzippen-"
     },
     {
       id: 3,
-      title: "Projekt 3",
+      title: "Helligkeitsregelung-Fernbedienung-Arduino",
       description: "Noch mehr interessante Projekte, die deine Fähigkeiten zeigen.",
-      image: "/project-3.png",
-      tags: ["Vite", "React", "Tailwind"],
-      demo: "#",
-      github: "#"
+      image: "/src/Bilder/projekt 3.png",
+      tags: ["Arduino"],
+      github: "https://github.com/Muhittin-Candan/Helligkeitsregelung-Fernbedienung-Arduino"
     },
     {
       id: 4,
-      title: "Projekt 4",
-      description: "Ein weiteres Beispielprojekt zur Demonstration deiner Entwicklungsfähigkeiten.",
-      image: "/project-4.png",
-      tags: ["JavaScript", "HTML", "CSS"],
-      demo: "#",
-      github: "#"
+      title: "Ampelsteuerung-Mikrocontroller-Arduino",
+      description: "Ampelsteuerung mittels Arduino Board umgesetzt",
+      icon: "arduino",
+      tags: ["Arduino"],
+      github: "https://github.com/Muhittin-Candan/Ampelsteuerung-Mikrocontroller-Arduino"
     },
     {
       id: 5,
-      title: "Projekt 5",
-      description: "Ein komplexes Projekt mit Backend-Integration und Datenbank.",
-      image: "/project-5.png",
-      tags: ["React", "Express", "PostgreSQL"],
-      demo: "#",
-      github: "#"
+      title: "Gewächshaus mittels Siemens SPS SIMATIC umgesetzt",
+      description: "Gewächshaus-Steuerung mittels Siemens SPS SIMATIC umgesetzt",
+      image: "/src/Bilder/projekt5.png",
+      tags: ["SPS", "Siemens"],
+      demo: "/src/Bilder/sps1.xhtml",
+      demoLabel: "Vorschau"
     },
     {
       id: 6,
-      title: "Projekt 6",
-      description: "Eine mobile-responsive Anwendung mit modernen UI-Prinzipien.",
-      image: "/project-6.png",
-      tags: ["React Native", "Firebase", "TypeScript"],
-      demo: "#",
-      github: "#"
+      title: "Beschreibung des TONR (Zeit akkumulieren) Bausteins",
+      description: "Protokoll zu der Funktion des TONR-Bausteins",
+      image: "/src/Bilder/projekt 6.png",
+      tags: ["SPS", "Siemens"],
+      demo: "/src/Bilder/sps2.xhtml",
+      demoLabel: "Vorschau"
     }
   ],
   en: [
     {
       id: 1,
-      title: "Project 1",
-      description: "A short description of your project. Explain what you built and which technologies you used.",
-      image: "/project-1.png",
-      tags: ["React", "CSS", "JavaScript"],
-      demo: "#",
-      github: "#"
+      title: "PDF-Invoice-Value-Extractor",
+      description: "Reads PDF invoices and extracts the values into a CSV file",
+      image: "/src/Bilder/projekt1.png",
+      tags: ["Python", "pdfplumber"],
+      github: "https://github.com/Muhittin-Candan/PDF-Rechnungen-Werte-Extrahieren-"
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "Another cool project description with the technologies used.",
+      title: "Archive/Zip Invoices",
+      description: "The script reads PDF invoices for specific keywords and then zips/archives them",
       image: "/project-2.png",
-      tags: ["React", "Node.js", "MongoDB"],
-      demo: "#",
-      github: "#"
+      tags: ["Python", "PyPDF2", "zipfile"],
+      icon: "zip",
+      github: "https://github.com/Muhittin-Candan/Rechnugen-archivieren-verzippen-"
     },
     {
       id: 3,
-      title: "Project 3",
+      title: "Helligkeitsregelung-Fernbedienung-Arduino",
       description: "Even more interesting projects that showcase your skills.",
-      image: "/project-3.png",
-      tags: ["Vite", "React", "Tailwind"],
-      demo: "#",
-      github: "#"
+      image: "/src/Bilder/projekt 3.png",
+      tags: ["Arduino"],
+      github: "https://github.com/Muhittin-Candan/Helligkeitsregelung-Fernbedienung-Arduino"
     },
     {
       id: 4,
-      title: "Project 4",
-      description: "Another example project to demonstrate your development skills.",
-      image: "/project-4.png",
-      tags: ["JavaScript", "HTML", "CSS"],
-      demo: "#",
-      github: "#"
+      title: "Ampelsteuerung-Mikrocontroller-Arduino",
+      description: "Traffic light control implemented using Arduino board",
+      icon: "arduino",
+      tags: ["Arduino"],
+      github: "https://github.com/Muhittin-Candan/Ampelsteuerung-Mikrocontroller-Arduino"
     },
     {
       id: 5,
-      title: "Project 5",
-      description: "A complex project with backend integration and database.",
-      image: "/project-5.png",
-      tags: ["React", "Express", "PostgreSQL"],
-      demo: "#",
-      github: "#"
+      title: "Gewächshaus mittels Siemens SPS SIMATIC umgesetzt",
+      description: "Greenhouse control implemented using Siemens SPS SIMATIC",
+      image: "/src/Bilder/projekt5.png",
+      tags: ["SPS", "Siemens"],
+      demo: "/src/Bilder/sps1.xhtml",
+      demoLabel: "Preview"
     },
     {
       id: 6,
-      title: "Project 6",
-      description: "A mobile-responsive application with modern UI principles.",
-      image: "/project-6.png",
-      tags: ["React Native", "Firebase", "TypeScript"],
-      demo: "#",
-      github: "#"
+      title: "Description of the TONR (Time Accumulate) Block",
+      description: "Protocol on the function of the TONR block",
+      image: "/src/Bilder/projekt 6.png",
+      tags: ["SPS", "Siemens"],
+      demo: "/src/Bilder/sps2.xhtml",
+      demoLabel: "Preview"
     }
   ]
 }
