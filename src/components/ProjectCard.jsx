@@ -1,12 +1,13 @@
 import '../styles/projectCard.css'
 import { useLanguage } from '../LanguageContext.jsx'
-import { FaFileArchive } from 'react-icons/fa'
+import { FaFileArchive, FaCode } from 'react-icons/fa'
 import { SiArduino, SiSiemens } from 'react-icons/si'
 
 const iconMap = {
   zip: FaFileArchive,
   sps: SiSiemens,
   arduino: SiArduino,
+  code: FaCode,
 }
 
 export default function ProjectCard({ project }) {

@@ -9,6 +9,14 @@ const projectsData = {
       github: "https://github.com/Muhittin-Candan/PDF-Rechnungen-Werte-Extrahieren-"
     },
     {
+      id: 1.5,
+      title: "Meine About Me Webseite",
+      description: "Das ist der Code für diese Webseite",
+      tags: ["GitHub Copilot Agent", "Amazon Q Developer", "React (JSX)", "JavaScript", "CSS", "HTML"],
+      icon: "code",
+      github: "https://github.com/Muhittin-Candan/Portfolio_Frontend_MCandan"
+    },
+    {
       id: 2,
       title: "Rechnungen archivieren/verzippen",
       description: "Das Script liest die PDF Rechnungen nach bestimmten Schlüsselwörtern aus und verzippt/archiviert diese dann",
@@ -59,6 +67,14 @@ const projectsData = {
       image: "/Bilder/projekt1.png",
       tags: ["Python", "pdfplumber"],
       github: "https://github.com/Muhittin-Candan/PDF-Rechnungen-Werte-Extrahieren-"
+    },
+    {
+      id: 1.5,
+      title: "My About Me Website",
+      description: "This is the code for this website",
+      tags: ["GitHub Copilot Agent", "Amazon Q Developer", "React (JSX)", "JavaScript", "CSS", "HTML"],
+      icon: "code",
+      github: "https://github.com/Muhittin-Candan/Portfolio_Frontend_MCandan"
     },
     {
       id: 2,
